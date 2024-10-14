@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../images/WhatsApp Image 2024-10-02 at 20.09.46_31d9dcb3.jpg';
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
