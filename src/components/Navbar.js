@@ -35,7 +35,7 @@ const Navbar = () => {
           <li><a href="/about">About</a></li>
           
           <li><a href="/contact">Contact</a></li>
-          <li><a  onClick={handleWhatsAppClick} style={{cursor:'pointer'}}><i class="fa-solid fa-award"></i>&nbsp;Enroll</a></li>
+          <li><a  href={handleWhatsAppClick} style={{cursor:'pointer'}}><i class="fa-solid fa-award"></i>&nbsp;Enroll</a></li>
         </ul>
       </div>
       
